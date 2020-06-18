@@ -1,5 +1,6 @@
 # 문장 토큰, 단어 토큰하기
-
+import nltk
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize, word_tokenize, WordPunctTokenizer
 
 input_text = "Do you know how tokenization works? It's actually quite interesting ! Let's analyze a couple of" \
